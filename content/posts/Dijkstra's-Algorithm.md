@@ -1,7 +1,7 @@
 
 +++
 date = '2025-06-29'
-title = 'Dijkstra's Algorithm'
+title = 'Dijkstra Algorithm'
 +++
 
 # Dijkstra's Algorithm
