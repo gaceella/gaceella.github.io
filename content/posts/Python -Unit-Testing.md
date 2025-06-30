@@ -119,7 +119,7 @@ def divide(a, b):
 | multiply | Multiplies two numbers                |
 | divide   | Divides first by second, handles zero |
 
-### `test_math_functions.py` (with intentional errors):
+### `test_math_functions.py` :
 
 ```python
 # test_math_functions.py
@@ -246,7 +246,7 @@ The output shows that there are issues in three functions: `add`, `sub`, and `mu
 
 Now, correct the code and re-run the test.
 
-### Updated `test_math_functions.py` (corrected):
+### Updated `test_math_functions.py` :
 
 ```python
 # test_math_functions.py
