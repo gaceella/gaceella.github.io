@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>gaceella</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on gaceella</description>
+    <generator>Hugo -- 0.147.8</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 29 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PyUnit</title>
+      <link>http://localhost:1313/posts/my-fourth-post/</link>
+      <pubDate>Sun, 29 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-fourth-post/</guid>
+      <description>&lt;h1 id=&#34;pyunit&#34;&gt;PyUnit&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“Testing leads to failure, and failure leads to understanding.”&lt;/p&gt;&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;what-is-pyunit&#34;&gt;What is PyUnit?&lt;/h2&gt;
+&lt;p&gt;PyUnit is the built-in testing framework in Python.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;It is also called &lt;code&gt;unittest&lt;/code&gt; in Python code.&lt;/li&gt;
+&lt;li&gt;It helps you test your code automatically by checking if functions work as expected.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You do not need to install anything to use it. Just import &lt;code&gt;unittest&lt;/code&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;advantages-of-pyunit&#34;&gt;Advantages of PyUnit&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Built-in&lt;/strong&gt;: No need to install anything. It is included in the Python standard library.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Structured&lt;/strong&gt;: Class-based organization is ideal for large, complex projects.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;IDE Compatibility&lt;/strong&gt;: Works smoothly with IDEs like PyCharm, VS Code, etc.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Secure for Restricted Systems&lt;/strong&gt;: Often allowed in environments where third-party libraries are not permitted.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;disadvantages-of-pyunit&#34;&gt;Disadvantages of PyUnit&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Verbose Syntax&lt;/strong&gt;: Requires more lines of code and setup compared to Pytest.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Less Pythonic&lt;/strong&gt;: Uses Java-style assertions (&lt;code&gt;self.assertEqual&lt;/code&gt;) instead of Python’s &lt;code&gt;assert&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Slower Test Writing&lt;/strong&gt;: More boilerplate code means slower development of tests.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Manual Discovery&lt;/strong&gt;: Tests must be manually added or executed via &lt;code&gt;unittest.main()&lt;/code&gt; unless integrated with a test runner.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;what-is-the-difference-between-pytest-and-pyunit&#34;&gt;What Is the Difference Between Pytest and PyUnit?&lt;/h2&gt;
+&lt;p&gt;PyUnit, also known as &lt;code&gt;unittest&lt;/code&gt;, is the built-in unit testing framework that comes with Python.&lt;br&gt;
+On the other hand, &lt;strong&gt;Pytest&lt;/strong&gt; is a third-party Python testing framework that is more modern, flexible, and concise.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Huffman Coding</title>
+      <link>http://localhost:1313/posts/my-third-post/</link>
+      <pubDate>Thu, 19 Jun 2025 11:12:14 +0500</pubDate>
+      <guid>http://localhost:1313/posts/my-third-post/</guid>
+      <description>&lt;h1 id=&#34;huffman-coding-explained&#34;&gt;Huffman Coding Explained&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;In the world of entropy, Huffman shows us that even the longest stories deserve the shortest code.&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;what-is-huffman-coding&#34;&gt;What is Huffman Coding?&lt;/h2&gt;
+&lt;h3 id=&#34;definition&#34;&gt;Definition&lt;/h3&gt;
+&lt;p&gt;Huffman Coding is a &lt;strong&gt;lossless data compression algorithm&lt;/strong&gt;. It reduces the size of files by using &lt;strong&gt;shorter codes for more frequent characters&lt;/strong&gt; and &lt;strong&gt;longer codes for less frequent ones&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Huffman coding involves two steps:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Encoding&lt;/strong&gt; the original data.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Decoding&lt;/strong&gt; it back to the original form after transmission or storage.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;why-do-we-use-huffman-coding&#34;&gt;Why Do We Use Huffman Coding?&lt;/h2&gt;
+&lt;p&gt;We use Huffman Coding to:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cryptography(Encryption,Decryption)</title>
+      <link>http://localhost:1313/posts/my-second-post/</link>
+      <pubDate>Wed, 18 Jun 2025 11:12:14 +0500</pubDate>
+      <guid>http://localhost:1313/posts/my-second-post/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;“Cryptography is the ultimate form of nonviolent direct action.”&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h1 id=&#34;what-is-cryptography&#34;&gt;What is Cryptography?&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;What is Cryptography?&lt;/strong&gt;&lt;br&gt;
+Cryptography is the science of protecting information by turning it into unreadable code so that only the right person can read it.&lt;br&gt;
+It keeps your data safe, private, and secure, whether it is stored or being sent across the internet.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What is Decryption?&lt;/strong&gt;&lt;br&gt;
+Decryption is the process of converting the coded (encrypted) message back into readable data, but only if you have the correct key.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:1313/posts/my-first-post/</link>
+      <pubDate>Wed, 18 Jun 2025 11:09:45 +0500</pubDate>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <description>&lt;p&gt;My first post on hugo.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

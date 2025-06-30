@@ -1,0 +1,4 @@
+baseURL = 'https://gaceella.github.io/'
+languageCode = 'en-us'
+title = 'gaceella'
+theme = "hugo-PaperMod"

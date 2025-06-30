@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Cryptography(Encryption,Decryption) | gaceella</title>
+<meta name="keywords" content="">
+<meta name="description" content="
+“Cryptography is the ultimate form of nonviolent direct action.”
+What is Cryptography?
+What is Cryptography?
+Cryptography is the science of protecting information by turning it into unreadable code so that only the right person can read it.
+It keeps your data safe, private, and secure, whether it is stored or being sent across the internet.
+What is Decryption?
+Decryption is the process of converting the coded (encrypted) message back into readable data, but only if you have the correct key.">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/posts/my-second-post/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.8fe10233a706bc87f2e08b3cf97b8bd4c0a80f10675a143675d59212121037c0.css" integrity="sha256-j&#43;ECM6cGvIfy4Is8&#43;XuL1MCoDxBnWhQ2ddWSEhIQN8A=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/my-second-post/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="gaceella (Alt + H)">gaceella</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Cryptography(Encryption,Decryption)
+    </h1>
+    <div class="post-meta"><span title='2025-06-18 11:12:14 +0500 PKT'>June 18, 2025</span>
+
+</div>
+  </header> 
+  <div class="post-content"><blockquote>
+<p>“Cryptography is the ultimate form of nonviolent direct action.”</p></blockquote>
+<h1 id="what-is-cryptography">What is Cryptography?<a hidden class="anchor" aria-hidden="true" href="#what-is-cryptography">#</a></h1>
+<p><strong>What is Cryptography?</strong><br>
+Cryptography is the science of protecting information by turning it into unreadable code so that only the right person can read it.<br>
+It keeps your data safe, private, and secure, whether it is stored or being sent across the internet.</p>
+<p><strong>What is Decryption?</strong><br>
+Decryption is the process of converting the coded (encrypted) message back into readable data, but only if you have the correct key.</p>
+<p><strong>What is Encryption?</strong><br>
+Encryption is the process of turning plain readable data into coded data so unauthorized people cannot understand it.</p>
+<h2 id="example">Example:<a hidden class="anchor" aria-hidden="true" href="#example">#</a></h2>
+<p><strong>Plain text:</strong> <code>HELLO</code><br>
+<strong>Encrypted:</strong> <code>KHOOR</code></p>
+<p>This method of conversion of data is called <strong>Caesar Cipher</strong>.</p>
+<h3 id="simple-example-caesar-cipher">Simple Example: Caesar Cipher:<a hidden class="anchor" aria-hidden="true" href="#simple-example-caesar-cipher">#</a></h3>
+<p>Caesar Cipher is a classic and easy method where each letter is shifted forward in the alphabet.</p>
+<ul>
+<li><strong>Plain Text:</strong> <code>HELLO</code></li>
+<li><strong>Shift each letter +3:</strong>
+<ul>
+<li>H → K</li>
+<li>E → H</li>
+<li>L → O</li>
+<li>L → O</li>
+<li>O → R</li>
+</ul>
+</li>
+<li><strong>Encrypted:</strong> <code>KHOOR</code></li>
+</ul>
+<p>To decrypt it, shift the letters back by 3.</p>
+<blockquote>
+<p>This is a simple example that explains the encryption and decryption process.<br>
+In this example, we use the Caesar Cipher method, which is one of the oldest encryption techniques and is <strong>not used in modern industry</strong>.</p></blockquote>
+<h1 id="modern-encryption--decryption-techniques-used-in-the-industry">Modern Encryption / Decryption Techniques Used in the Industry:<a hidden class="anchor" aria-hidden="true" href="#modern-encryption--decryption-techniques-used-in-the-industry">#</a></h1>
+<p>In this section, we discuss the <strong>modern techniques</strong> of encryption and decryption used at the industry level.</p>
+<h2 id="1-aes-advanced-encryption-standard">1. AES (Advanced Encryption Standard):<a hidden class="anchor" aria-hidden="true" href="#1-aes-advanced-encryption-standard">#</a></h2>
+<ul>
+<li><strong>Type:</strong> Symmetric (same key for encryption and decryption)</li>
+<li><strong>Used in:</strong> File encryption, WhatsApp messages, databases, cloud storage</li>
+<li><strong>Features:</strong> Fast and secure</li>
+<li><strong>Key Sizes:</strong> 128, 192, or 256 bits</li>
+</ul>
+<p><strong>Why is it important?</strong><br>
+AES is trusted and super-efficient. It’s the most used method in apps, banks, and secure cloud storage.</p>
+<h2 id="2-rsa-rivest-shamir-adleman">2. RSA (Rivest-Shamir-Adleman):<a hidden class="anchor" aria-hidden="true" href="#2-rsa-rivest-shamir-adleman">#</a></h2>
+<ul>
+<li><strong>Type:</strong> Asymmetric (public and private key pair)</li>
+<li><strong>Used in:</strong> SSL certificates, secure emails, digital signatures</li>
+<li><strong>Features:</strong> Secure but slower than AES</li>
+</ul>
+<p><strong>Why is it important?</strong><br>
+RSA is great for sending secrets without sharing a key in advance. It is used to protect data on websites and apps.</p>
+<h2 id="3-tlsssl-transport-layer-security--secure-sockets-layer">3. TLS/SSL (Transport Layer Security / Secure Sockets Layer):<a hidden class="anchor" aria-hidden="true" href="#3-tlsssl-transport-layer-security--secure-sockets-layer">#</a></h2>
+<ul>
+<li><strong>Type:</strong> Protocol (uses RSA or ECC + AES)</li>
+<li><strong>Used in:</strong> <code>https://</code> websites, online banking, secure messaging</li>
+<li><strong>Features:</strong> Ensures data is encrypted between you and a server</li>
+</ul>
+<p><strong>Why is it important?</strong><br>
+TLS/SSL keeps your data safe during online communication, like when you log into a bank or make a purchase.</p>
+<h2 id="4-ecc-elliptic-curve-cryptography">4. ECC (Elliptic Curve Cryptography):<a hidden class="anchor" aria-hidden="true" href="#4-ecc-elliptic-curve-cryptography">#</a></h2>
+<ul>
+<li><strong>Type:</strong> Asymmetric (like RSA, but smaller &amp; faster)</li>
+<li><strong>Used in:</strong> Mobile apps, cryptocurrency wallets, secure messaging</li>
+<li><strong>Features:</strong> Lightweight – great for mobile and IoT devices</li>
+</ul>
+<p><strong>Why is it important?</strong><br>
+ECC offers strong security like RSA but with smaller key sizes, making it ideal for modern, mobile-first tech.</p>
+<h2 id="5-hashing">5. Hashing:<a hidden class="anchor" aria-hidden="true" href="#5-hashing">#</a></h2>
+<ul>
+<li><strong>Type:</strong> One-way (can’t be decrypted)</li>
+<li><strong>Used in:</strong> Password protection, data verification, blockchain</li>
+<li><strong>Features:</strong> Stores only the &ldquo;fingerprint&rdquo; of data</li>
+</ul>
+<p><strong>Why is it important?</strong><br>
+Hashing secures sensitive data like passwords. Even if a hacker steals a database, they cannot reverse the hash.</p>
+<h1 id="which-method-is-used-in-big-data-centers">Which Method is Used in Big Data Centers?<a hidden class="anchor" aria-hidden="true" href="#which-method-is-used-in-big-data-centers">#</a></h1>
+<p><strong>AES-256</strong> is the most widely used encryption method in big data centers and cloud platforms like <strong>Google Cloud</strong>, <strong>AWS</strong>, and <strong>Azure</strong> because:</p>
+<ul>
+<li>It is fast</li>
+<li>Highly secure</li>
+<li>Works well with large volumes of data</li>
+</ul>
+<h1 id="comparison-between-the-different-encryptiondecryption-methods">Comparison Between the Different Encryption/Decryption Methods:<a hidden class="anchor" aria-hidden="true" href="#comparison-between-the-different-encryptiondecryption-methods">#</a></h1>
+<table>
+  <thead>
+      <tr>
+          <th>Method</th>
+          <th>Type</th>
+          <th>Used For</th>
+          <th>Can Be Decrypted?</th>
+          <th>Speed</th>
+          <th>Security Level</th>
+          <th>Simple Explanation</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>AES</td>
+          <td>Symmetric</td>
+          <td>File &amp; message encryption</td>
+          <td>Yes</td>
+          <td>Fast</td>
+          <td>Very Strong</td>
+          <td>Same key is used to encrypt and decrypt. Used in apps, cloud storage, and databases.</td>
+      </tr>
+      <tr>
+          <td>RSA</td>
+          <td>Asymmetric</td>
+          <td>Emails, digital signatures, SSL</td>
+          <td>Yes</td>
+          <td>Slower</td>
+          <td>Very Strong</td>
+          <td>Uses public &amp; private keys. Great for securely sharing encryption keys.</td>
+      </tr>
+      <tr>
+          <td>TLS/SSL</td>
+          <td>Protocol</td>
+          <td>Secure websites (HTTPS)</td>
+          <td>Yes</td>
+          <td>Fast</td>
+          <td>Strong</td>
+          <td>A protocol that uses RSA/ECC + AES to protect online communication.</td>
+      </tr>
+      <tr>
+          <td>ECC</td>
+          <td>Asymmetric</td>
+          <td>Mobile apps, blockchain</td>
+          <td>Yes</td>
+          <td>Fast</td>
+          <td>Very Strong</td>
+          <td>Like RSA, but faster and lighter. Ideal for mobile and IoT devices.</td>
+      </tr>
+      <tr>
+          <td>Hashing</td>
+          <td>One-way</td>
+          <td>Passwords, blockchain</td>
+          <td>No</td>
+          <td>Fast</td>
+          <td>Unbreakable</td>
+          <td>Turns data into fixed-length code. Cannot be reversed. Used for secure login and verification.</td>
+      </tr>
+  </tbody>
+</table>
+<h1 id="final-thoughts">Final Thoughts:<a hidden class="anchor" aria-hidden="true" href="#final-thoughts">#</a></h1>
+<p>In today&rsquo;s digital world, protecting information is more important than ever.</p>
+<p>Cryptography, through encryption and decryption, plays a key role in keeping our data private and secure. Whether it is <strong>AES for fast and strong encryption</strong>, <strong>RSA for secure key exchange</strong>, or <strong>hashing for protecting passwords</strong>, each method has its own purpose and strength.</p>
+<blockquote>
+<p>Understanding these techniques is the first step toward a career in cybersecurity.<br>
+As technology evolves, so do the threats, and knowing how to secure data is a skill in high demand across every industry.</p></blockquote>
+<hr>
+<blockquote>
+<p><em>&ldquo;In the world of cybersecurity, encryption isn&rsquo;t just protection — it&rsquo;s trust written in code.&rdquo;</em></p></blockquote>
+<p><strong>Thank You!</strong></p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="http://localhost:1313/">gaceella</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>
