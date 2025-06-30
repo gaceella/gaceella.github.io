@@ -52,6 +52,7 @@ Yes, most operating systems (like Linux, Windows, macOS) automatically create lo
 In Linux, you can check logs in your system using the command:
 
 ```bash
+/var/log/
 cd /var/log
 ls
 ```
