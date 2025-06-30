@@ -2,26 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://gaceella.github.io/</loc>
     <lastmod>2025-06-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://gaceella.github.io/posts/</loc>
     <lastmod>2025-06-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/my-fourth-post/</loc>
+    <loc>https://gaceella.github.io/posts/my-fourth-post/</loc>
     <lastmod>2025-06-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/my-third-post/</loc>
+    <loc>https://gaceella.github.io/posts/my-third-post/</loc>
     <lastmod>2025-06-19T11:12:14+05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/my-second-post/</loc>
+    <loc>https://gaceella.github.io/posts/my-second-post/</loc>
     <lastmod>2025-06-18T11:12:14+05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/my-first-post/</loc>
+    <loc>https://gaceella.github.io/posts/my-first-post/</loc>
     <lastmod>2025-06-18T11:09:45+05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://gaceella.github.io/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://gaceella.github.io/tags/</loc>
   </url>
 </urlset>

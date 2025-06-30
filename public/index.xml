@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>gaceella</title>
-    <link>http://localhost:1313/</link>
+    <link>https://gaceella.github.io/</link>
     <description>Recent content on gaceella</description>
     <generator>Hugo -- 0.147.8</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 29 Jun 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://gaceella.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>PyUnit</title>
-      <link>http://localhost:1313/posts/my-fourth-post/</link>
+      <link>https://gaceella.github.io/posts/my-fourth-post/</link>
       <pubDate>Sun, 29 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/my-fourth-post/</guid>
+      <guid>https://gaceella.github.io/posts/my-fourth-post/</guid>
       <description>&lt;h1 id=&#34;pyunit&#34;&gt;PyUnit&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;“Testing leads to failure, and failure leads to understanding.”&lt;/p&gt;&lt;/blockquote&gt;
@@ -47,9 +47,9 @@ On the other hand, &lt;strong&gt;Pytest&lt;/strong&gt; is a third-party Python t
     </item>
     <item>
       <title>Huffman Coding</title>
-      <link>http://localhost:1313/posts/my-third-post/</link>
+      <link>https://gaceella.github.io/posts/my-third-post/</link>
       <pubDate>Thu, 19 Jun 2025 11:12:14 +0500</pubDate>
-      <guid>http://localhost:1313/posts/my-third-post/</guid>
+      <guid>https://gaceella.github.io/posts/my-third-post/</guid>
       <description>&lt;h1 id=&#34;huffman-coding-explained&#34;&gt;Huffman Coding Explained&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&amp;ldquo;In the world of entropy, Huffman shows us that even the longest stories deserve the shortest code.&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;
@@ -68,9 +68,9 @@ On the other hand, &lt;strong&gt;Pytest&lt;/strong&gt; is a third-party Python t
     </item>
     <item>
       <title>Cryptography(Encryption,Decryption)</title>
-      <link>http://localhost:1313/posts/my-second-post/</link>
+      <link>https://gaceella.github.io/posts/my-second-post/</link>
       <pubDate>Wed, 18 Jun 2025 11:12:14 +0500</pubDate>
-      <guid>http://localhost:1313/posts/my-second-post/</guid>
+      <guid>https://gaceella.github.io/posts/my-second-post/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;“Cryptography is the ultimate form of nonviolent direct action.”&lt;/p&gt;&lt;/blockquote&gt;
 &lt;h1 id=&#34;what-is-cryptography&#34;&gt;What is Cryptography?&lt;/h1&gt;
@@ -82,9 +82,9 @@ Decryption is the process of converting the coded (encrypted) message back into 
     </item>
     <item>
       <title>My First Post</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
+      <link>https://gaceella.github.io/posts/my-first-post/</link>
       <pubDate>Wed, 18 Jun 2025 11:09:45 +0500</pubDate>
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <guid>https://gaceella.github.io/posts/my-first-post/</guid>
       <description>&lt;p&gt;My first post on hugo.&lt;/p&gt;</description>
     </item>
   </channel>
