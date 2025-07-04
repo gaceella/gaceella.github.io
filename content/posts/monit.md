@@ -1,6 +1,6 @@
 
 +++
-date = '2025-07-3'
+date = '2025-07-03'
 title = 'System Monitoring'
 +++
 
