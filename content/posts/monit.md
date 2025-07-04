@@ -1,4 +1,9 @@
 
++++
+date = '2025-07-3'
+title = 'System Monitoring'
++++
+
 # System Monitoring
 
 > "You can't manage what you can't measure — system monitoring turns invisible problems into visible opportunities."
